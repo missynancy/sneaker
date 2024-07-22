@@ -1,0 +1,150 @@
+.background {
+    width: 700px;
+    height: 700px; /* Full viewport height */
+    float: left;
+    
+    padding: none;
+    object-fit: cover;
+    
+  }
+  .back{
+    z-index: 10;
+    
+  }
+  .hero{
+    margin: 0px 120px;
+    margin-top: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+  .hero a{
+    text-decoration: none;
+    color: #FFF;
+  }
+  .hero-text{
+    color: orange;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110px;
+  }
+  .hero-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 10%;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -50px;
+    border-radius: 15px;
+    background-color: #807e7e;
+    cursor: pointer;
+  }
+  .hero-link .bx-right-arrow-circle{
+    font-size: 30px;
+  }
+  .hero-link:hover{
+    background-color: orange;
+    color: #fff;
+  }
+  .dots{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dots .hero-dots{
+    
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+    
+    
+  }
+  .hero-dots li{
+    list-style: none;
+    
+  }
+  .hero-dot{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .hero-dots .orange{
+    background-color: orange;
+    
+  }
+  @media (max-width: 768px) {
+    .hero{
+      margin: 160px 20px;
+    }
+    .hero-link{
+      width: 15%;
+      background: transparent;
+      color: white;
+    }
+    .hero-link:hover{
+      
+      color: orange;
+    }
+    .hero-text{
+      font-size: 40px;
+    }
+    .dots{
+      margin-left: -50px;
+    }
+    .dots .hero-dots{
+      gap: 10px;
+    }
+    
+  }
+  @media (max-width: 425px) {
+    .background {
+      width: 250px;
+      height: 250px; /* Full viewport height */
+      float: left;
+      padding: none;
+      object-fit: cover;
+      
+    }
+    .back{
+      z-index: 10;
+      width: 100%;
+      object-fit: contain;
+    }
+    .hero-text{
+      font-size: 40px;
+      margin-top: -200px;
+    }
+    .hero-link{
+      margin-top: 230px;
+    }
+    .dots{
+      margin-left: 50px;
+    }
+  }
+  @media (max-width: 375px) {
+    .background {
+      width: 250px;
+      height: 250px; /* Full viewport height */
+      float: left;
+      padding: none;
+      object-fit: cover;
+      
+    }
+    
+  }
+  
+  
+  

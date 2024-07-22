@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Arizona Soft Footbed",
+        "price": 1200,
+        "image": "src/assets/sandal images/Arizona Soft Footbed 1.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name":"Boston Natural Leather",
+        "price": 1200,
+        "image": "src/assets/sandal images/Boston natural leather.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Lugano Soft Footbed Suede Leather",
+        "price": 1200,
+        "image": "src/assets/sandal images/Lugano Soft Footbed Suede Leather Sandal Taupe Men.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes",
+        "price": 1200,
+        "image": "src/assets/sandal images/Milano Kids.jpg"
+    }
+]

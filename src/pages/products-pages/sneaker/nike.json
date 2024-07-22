@@ -1,0 +1,76 @@
+
+[
+    {
+        "id": 1,
+        "name":"Nike Air Max 270",
+        "price": 1200,
+        "image": "src/assets/nike270.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Nike Dunk Low",
+        "price": 1200,
+        "image": "src/assets/nikedunk.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Nike Air Force 1 '07",
+        "price": 1200,
+        "image": "src/assets/Nike Air Force 1 '07.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Air Jordan 1 Low",
+        "price": 1200,
+        "image": "src/assets/nikelow.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Nike Air Max 90",
+        "price": 1200,
+        "image": "src/assets/nike90.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Nike Free Metcon 5",
+        "price": 1200,
+        "image": "src/assets/metcon5.jpg"
+    },
+    {
+        "id": 7,
+        "name":"Nike Air Max Dn SE",
+        "price": 1200,
+        "image": "src/assets/nikedn.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Air Max 2021 SE",
+        "price": 1200,
+        "image": "src/assets/nikese.jpg"
+    },
+    {
+        "id": 9,
+        "name":"Nike AIr Zoom Alphafly",
+        "price": 1200,
+        "image": "src/assets/nikeairzoom.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Nike Air Max Pulse",
+        "price": 1200,
+        "image": "src/assets/nikepalse.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Nike InfinityRN 4 GORE-TEX",
+        "price": 1200,
+        "image": "src/assets/nikeinfinity.jpg"
+    },
+    {
+        "id": 12,
+        "name":"Nike Cortez",
+        "price": 1200,
+        "image": "src/assets/nikecortez.jpg"
+    }
+    
+]

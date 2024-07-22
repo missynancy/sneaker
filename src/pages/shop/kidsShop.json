@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Bow Leather Shoes",
+        "price": 1200,
+        "image": "src/assets/all1.jpg",
+        "image2": "src/assets/kids images/Bow Leather Shoes.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Children's Dinosaur Sneakers Fabric",
+        "price": 1200,
+        "image": "src/assets/kids images/Children's Dinosaur Sneakers Fabric.jpg"
+    },
+    {
+        "id": 3,
+        "name":"KIDS Rainbow Cruisers",
+        "price": 1200,
+        "image": "src/assets/kids images/KIDS Rainbow Cruisers.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Soft leather sandals",
+        "price": 1200,
+        "image": "src/assets/kids images/Soft leather sandals.jpg"
+    }
+]

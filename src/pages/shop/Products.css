@@ -1,0 +1,204 @@
+.margin{
+    margin-top: 50px;
+}
+/* shop */
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.shoe-link{
+    width: 98%;
+    height: 60px;
+    background-color: #ebebeb;
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.shoe-link li{
+    list-style: none;
+    
+}
+.shoe-link li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.shoe-link li a:hover{
+    background-color: orange;
+    border: none;
+    color: #fff;
+}
+
+.shop-sneakers{
+    text-align: center;
+}
+.shop-p{
+    display: flex;
+    text-align: center;
+}
+.shop-p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s ease-in;
+}
+.shop-p a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.shop-content{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.shop-product{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.shop-product img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.shop-product:hover{
+    box-shadow: 0 0 10px #333;
+}
+.shop-product button{
+    font-weight: 600;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+.shop-product button:hover{
+    box-shadow: 0 0 25px orange;
+}
+
+@media (max-width: 320px) {
+    .shop-product{
+        width: 200px;
+        height: 300px; 
+    }
+    .shop-product img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .shop{
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .shoe-link{
+        width: 98%;
+        gap: 10px;
+        
+    }
+    .shop{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    
+    .shoe-link{
+        width: 90%;
+        justify-content: start;
+        
+    }
+    .shoe-link li a{
+        font-size: 8px;
+    }
+    
+    .shop{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width: 375px) {
+    
+    .shoe-link{
+        display: none;
+    }
+}
+    
+.back-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.back-top:hover{
+    color: orange;
+}
+.back-top .bx-up-arrow-alt{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* productdetails */
+.product-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-img{
+    width: 50%;
+    
+}
+.product-cont{
+    width: 50%;
+    padding: 20px;
+    
+}
+.product-cont button{
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+.btn{
+    margin-top: 20px;
+}
+.product-cont button:hover{
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}

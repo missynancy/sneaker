@@ -1,0 +1,51 @@
+    [
+        {
+            "id": 1,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/all1.jpg"
+            
+        },
+        {
+            "id": 2,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 3,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 4,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 5,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 6,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 7,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        },
+        {
+            "id": 8,
+            "name":"Heels",
+            "price": 1200,
+            "image": "src/assets/zara heeels.jpg"
+        }  
+    ]

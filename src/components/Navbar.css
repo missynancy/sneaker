@@ -1,0 +1,232 @@
+.active{
+    background-color: orange;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #807e7e;
+    width: 100%;
+}
+.nav1 .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.nav1 ul{
+    display: flex;
+
+}
+.nav1 ul li{
+    list-style: none;
+}
+.nav1 ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 1rem;
+    font-weight: 600;
+}
+.nav1 ul li a:not(.active):hover{
+    border-bottom: 1px solid orange;
+}
+.nav1 .menu{
+    position: absolute;
+    top: 1.8rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+    display: none;
+}
+.nav1 .menu span{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 425px) {
+    .nav1{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .nav1 ul{
+        display: none; 
+        flex-direction: column;
+        width: 80%;
+    }
+    .nav1 ul.open{
+        display: flex;
+    }
+    .nav1 ul li{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .nav1 .menu{
+        display: flex;
+        margin-right: 10%;
+        
+    }
+    .nav2 ul{
+        top: 30%;
+    }
+    
+}
+/* menu2 */
+.nav2{
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(211, 208, 208);
+    box-shadow: 0 0 25px rgb(211, 208, 208);
+}
+.nav2 .menu2{
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav2 .menu2 span{
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.2rem;
+}
+
+.nav2 .menu2:hover{
+    background-color: orange;
+    color: #fff;
+}
+.nav2 ul{
+    width: 250px;
+    display: none;
+    background-color: rgb(211, 208, 208);
+    align-items: center;
+    justify-content: center;
+    left: 8;
+    top: 20%;
+    position: absolute;
+    z-index: 999;
+}
+.nav2 ul.open{
+    display: block;
+}
+.nav2 ul li{
+    align-items: center;
+    list-style: none;
+    
+}
+.nav2 a{
+    text-decoration: none;
+}
+.nav2 ul li a{
+    display: block;
+    color: black;
+    padding: 5px 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.nav2 .active{
+    background-color: orange;
+    color: white;
+}
+.nav2 ul li a:not(.active):hover{
+    border-bottom: 2px solid orange;
+}
+
+/* cart */
+
+.carticon i{
+    font-size: 30px;
+    padding: 10px;
+    color: black;   
+}
+.cartSpan{
+    position: absolute;
+    right: 10px;
+    color: black;
+    font-weight: 600;
+}
+.carticon:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c9c9c9;
+    width: 100%;
+    
+}
+.footer-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: Black;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+.footer a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+.footer i{
+    font-size: 20px;
+
+}
+.footer h3{
+    font-size: 25px;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Saint Lauret",
+        "price": 1200,
+        "image": "src/assets/heelsimages/saint lauret.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name":"Dior Heels",
+        "price": 1200,
+        "image": "src/assets/heelsimages/Dior heels.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Shoes Rivet High Heels",
+        "price": 1200,
+        "image": "src/assets/heelsimages/Shoes Rivet High Heels Woman Pumps Pu Leather Women Heels 9cm.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes",
+        "price": 1200,
+        "image": "src/assets/heelsimages/Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes.jpg"
+    }
+]

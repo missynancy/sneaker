@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Black oxford with rubber sole",
+        "price": 1200,
+        "image": "src/assets/all1.jpg",
+        "image2": "src/assets/Black oxford with rubber sole1.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Black Oxford rubber sole Berga 303",
+        "price": 1200,
+        "image": "src/assets/officialimages/Black Oxford rubber sole Berga 303.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Men Wingtip Oxford Shoe",
+        "price": 1200,
+        "image": "src/assets/officialimages/Men Wingtip Oxford Shoe1.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Madewell Bradley Leather Lugsole Loafers",
+        "price": 1200,
+        "image": "/src/assets/officialimages/Madewell Bradley Leather Lugsole Loafers.jpg"
+    } 
+]
