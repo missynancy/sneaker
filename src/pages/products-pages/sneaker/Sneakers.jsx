@@ -3,6 +3,7 @@ import nike from './nike.json';
 import puma from './puma.json';
 import sneakers from './sneakers.json';
 import addidas from './addidas.json';
+import oxford from './oxford.json'
 import { Link } from 'react-router-dom';
 import { Header } from '../../../components/Header';
 
@@ -16,6 +17,7 @@ export const Sneakers = () => {
           <li><a href="#puma">Puma</a></li>
           <li><a href="#newbalance">New Balance</a></li>
           <li><a href="#adidas">Adidas</a></li>
+          <li><a href="#oxford">Oxford</a></li>
         </ul>
         <div className="shop-sneakers" id='nike'>
           <h1>Nike</h1>
@@ -74,6 +76,22 @@ export const Sneakers = () => {
                 <h3>{item.name}</h3>
                 <h3>{item.price}</h3>
                 <Link to={`/sneakerdetails/adidas/${item.id}`}>
+                  <button>View item</button>
+                </Link>
+              </div>
+            )) : null}
+          </div>
+        </div>
+        <a className='back-top' href="#nav1">Back to top <i className='bx bx-up-arrow-alt'></i></a>
+        <div className="shop-sneakers margin" id='oxford'>
+          <h1>Oxford</h1>
+          <div className="shop-content">
+            {oxford && oxford.length ? oxford.map(item => (
+              <div className='shop-product' key={item.id}>
+                <img src={item.image} alt={item.name} />
+                <h3>{item.name}</h3>
+                <h3>{item.price}</h3>
+                <Link to={`/sneakerdetails/oxford/${item.id}`}>
                   <button>View item</button>
                 </Link>
               </div>

@@ -8,13 +8,13 @@ export const Sandals = () => {
         <>
         <Header />
         <div className='shop'>
-          <ul className='shoe-link'>
+          {/* <ul className='shoe-link'>
             <li><a href="#nike">Zara</a></li>
             <li><a href="#puma">Puma</a></li>
             <li><a href="#newbalance">New Balance</a></li>
             <li><a href="#adidas">Adidas</a></li>
             
-          </ul>
+          </ul> */}
           <div className="shop-sneakers" id='sandals'>
             <h1>sandals</h1>
             <div className="shop-content">

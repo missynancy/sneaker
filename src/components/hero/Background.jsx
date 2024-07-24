@@ -1,11 +1,11 @@
 import React from 'react';
  import './hero.css';
-import img1 from '../../assets/sneaker1-removebg-preview.png';
-import img2 from '../../assets/all_stars_leather-removebg-preview.png';
-import img3 from '../../assets/f3-removebg-preview.png';
-import img4 from '../../assets/h2-removebg-preview.png';
-import img5 from '../../assets/s1-removebg-preview.png';
-import img6 from '../../assets/k1-removebg-preview.png';
+import img1 from '/sneaker images/sneaker1-removebg-preview.png';
+import img2 from '/sneaker images/all_stars_leather-removebg-preview.png';
+import img3 from '/sneaker images/f3-removebg-preview.png';
+import img4 from '/sneaker images/h2-removebg-preview.png';
+import img5 from '/sneaker images/s1-removebg-preview.png';
+import img6 from '/sneaker images/k1-removebg-preview.png';
 
 
 

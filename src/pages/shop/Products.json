@@ -1,51 +1,83 @@
     [
         {
             "id": 1,
-            "name":"Heels",
+            "name":"Nike 270",
             "price": 1200,
-            "image": "src/assets/all1.jpg"
+            "image": "/sneaker images/air2702.jpg",
+            "image4": "/sneaker images/air2701.jpg",
+            "image2": "/sneaker images/air2703.jpg",
+            "image3": "/sneaker images/air2704.jpg",
+            "sizes" : [36, 38, 40, 42 ]
             
         },
         {
             "id": 2,
-            "name":"Heels",
+            "name":"Addidas Sambarose",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/adidasmillennial.jpeg",
+            "image4": "/sneaker images/adidas samba rose 2.jpg",
+            "image2": "/sneaker images/adidas samba rose 3.jpg",
+            "image3": "/sneaker images/Adidas Sambarose 1.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 3,
-            "name":"Heels",
+            "name":"men monk Strap Sneakers",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/men monk strap sneakers.jpg",
+            "image4": "/sneaker images/monk strap sneaker 1.jpg",
+            "image2": "/sneaker images/Men Monks strap sneakers.jpg",
+            "image3": "/sneaker images/Men Monk Strap Sneaker Brown Suede1.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 4,
-            "name":"Heels",
+            "name":"Puma mayze",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/pumamayze.jpg",
+            "image4": "/sneaker images/new550 whitebrown.jpg",
+            "image2": "/sneaker images/new550 marron.jpg",
+            "image3": "/sneaker images/new550 green.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 5,
-            "name":"Heels",
+            "name":"New Balance 550",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/new550.jpg",
+            "image4": "/sneaker images/new550 whitebrown.jpg",
+            "image2": "/sneaker images/new550 marron.jpg",
+            "image3": "/sneaker images/new550 green.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 6,
-            "name":"Heels",
+            "name":"Adidas Swift",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image4": "/sneaker images/adidas Men's Swift Run 1.jpg",
+            "image": "/sneaker images/adidas Men's Swift Run 2.jpg",
+            "image2": "/sneaker images/adidas Men's Swift Run 3.jpg",
+            "image3": "/sneaker images/adidas Men's Swift Run 4.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 7,
-            "name":"Heels",
+            "name":"Nike Dunk",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/nikedunk1.jpg",
+            "image4": "/sneaker images/nikedunk2.jpg",
+            "image2": "/sneaker images/nikedunk3.jpg",
+            "image3": "/sneaker images/nikedunk4.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         },
         {
             "id": 8,
-            "name":"Heels",
+            "name":"Air Max 2021 SE",
             "price": 1200,
-            "image": "src/assets/zara heeels.jpg"
+            "image": "/sneaker images/air2021.jpg",
+            "image4": "/sneaker images/nikese.jpg",
+            "image2": "/sneaker images/air20212.jpg",
+            "image3": "/sneaker images/air20213.jpg",
+            "sizes" : [36, 38, 40, 42 ]
         }  
     ]

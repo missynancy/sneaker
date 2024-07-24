@@ -40,7 +40,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/productdetails/${product.id}`}>
+                      <Link to={`/productdetails/sneaker/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>
@@ -61,7 +61,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/conversedetails/${product.id}`}>
+                      <Link to={`/productdetails/converse/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>
@@ -72,7 +72,7 @@ export const Shop = () => {
           </div>
           <div className="shop-sneaker margin" id="heels" id='office'>
             <h1>Official</h1>
-            <Link to='/heels'>View All</Link>
+            <Link to='/officials'>View All</Link>
             <div className="shop-content">
               {
                 official && official.length ?
@@ -82,7 +82,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/officialdetails/${product.id}`}>
+                      <Link to={`/productdetails/formal/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>
@@ -103,7 +103,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/heelsdetails/${product.id}`}>
+                      <Link to={`/productdetails/heels/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>
@@ -124,7 +124,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/sandalsdetails/${product.id}`}>
+                      <Link to={`/productdetails/sandals/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>
@@ -145,7 +145,7 @@ export const Shop = () => {
                       <img src={product.image} alt={product.name} />
                       <h3>{product.name}</h3>
                       <h3>{product.price}</h3>
-                      <Link to={`/kidsdetails/${product.id}`}>
+                      <Link to={`/productdetails/kids/${product.id}`}>
                         <button>View product</button>
                       </Link>
                   </div>

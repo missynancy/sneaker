@@ -8,13 +8,13 @@ export const Officials = () => {
         <>
         <Header />
         <div className='shop'>
-          <ul className='shoe-link'>
+          {/* <ul className='shoe-link'>
             <li><a href="#official">official</a></li>
             <li><a href="#puma">Lowfers</a></li>
             <li><a href="#newbalance">New Balance</a></li>
             <li><a href="#adidas">Adidas</a></li>
             
-          </ul>
+          </ul> */}
           <div className="shop-sneakers" id='official'>
         <h1>official</h1>
         <div className="shop-content">
@@ -27,7 +27,7 @@ export const Officials = () => {
                   <img src={item.image} />
                   <h3>{item.name}</h3>
                   <h3>{item.price}</h3>
-                  <Link to={`/Oficialdetails/${item.id}`}>
+                  <Link to={`/officialdetails/${item.id}`}>
                       <button>View item</button>
                     </Link>
                 </div>

@@ -12,7 +12,7 @@ import { Officials } from './pages/products-pages/official/Official.jsx';
 import { Heels } from './pages/products-pages/heels/Heels.jsx';
 import { Sandals } from './pages/products-pages/scandals/Scandals.jsx';
 import { Kids } from './pages/products-pages/kids/Kids.jsx';
-import { SneakerDetails } from './pages/productdetails/SneakerDetails.jsx';
+import SneakerDetails from './pages/productdetails/SneakerDetails.jsx';
 import { PumaDetails } from './pages/products-pages/sneaker/PumaDetails.jsx';
 import {ConverseDetails} from './pages/productdetails/ConverceDetails.jsx'
 import { OfficialsDetails } from './pages/productdetails/OfficialDetails.jsx';
@@ -45,7 +45,7 @@ function App() {
         <Route path='/heelsdetails/:id' element={<HeelsDetails />} />
         <Route path='/sandalsdetails/:id' element={<SandalsDetails />} />
         <Route path='/kidsdetails/:id' element={<KidsDetails />} />
-        <Route path='/productdetails/:id' element={<ProductDetails />} />
+        <Route path='/productdetails/:brand/:id' element={<ProductDetails />} />
       </Routes>
       <Footer />
     </>

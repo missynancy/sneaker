@@ -4,48 +4,48 @@
         "id": 1,
         "name":"PUMA Carina Street",
         "price": 1200,
-        "image": "src/assets/pumacarinna.jpg"
+        "image": "/sneaker images/pumacarinna.jpg"
     },
     {
         "id": 3,
         "name":"PUMA Mayze",
         "price": 1200,
-        "image": "src/assets/pumamayze.jpg"
+        "image": "/sneaker images/pumamayze.jpg"
     },
     {
         "id": 3,
         "name":"PUMA Men's Roma",
         "price": 1200,
-        "image": "src/assets/pumaroma.jpg"
+        "image": "/sneaker images/pumaroma.jpg"
     },
     {
         "id": 4,
         "name":"PUMA Club 5v5 sneaker",
         "price": 1200,
-        "image": "src/assets/pumasuede.jpg"
+        "image": "/sneaker images/pumasuede.jpg"
     },
     {
         "id": 5,
         "name":"PUMA  Retaliate",
         "price": 1200,
-        "image": "src/assets/pumaretaliate.jpg"
+        "image": "/sneaker images/pumaretaliate.jpg"
     },
     {
         "id": 6,
         "name":"Puma 180",
         "price": 1200,
-        "image": "src/assets/puma180.jpg"
+        "image": "/sneaker images/puma180.jpg"
     },
     {
         "id": 7,
         "name":"PUMA Road Rider",
         "price": 1200,
-        "image": "src/assets/super-v4.jpg"
+        "image": "/sneaker images/super-v4.jpg"
     },
     {
         "id": 8,
         "name":"PUMA Furure Rider",
         "price": 1200,
-        "image": "src/assets/pumaroadrider.jpg"
+        "image": "/sneaker images/pumaroadrider.jpg"
     }
 ]

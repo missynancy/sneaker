@@ -4,72 +4,72 @@
         "id": 1,
         "name":"Adidas Questar 3",
         "price": 1200,
-        "image": "src/assets/adidasquestar.jpg"
+        "image": "/sneaker images/adidasquestar.jpg"
     },
     {
         "id": 2,
         "name":"Adidas Runfalcon 5",
         "price": 1200,
-        "image": "src/assets/addidasrunfalcon5.jpg"
+        "image": "/sneaker images/addidasrunfalcon5.jpg"
     },
     {
         "id": 3,
         "name":"Adidas Swift Run",
         "price": 1200,
-        "image": "src/assets/adidasswift.jpg"
+        "image": "/sneaker images/adidasswift.jpg"
     },
     {
         "id": 4,
         "name":"Adidas AltraBoost X5",
         "price": 1200,
-        "image": "src/assets/adidasboost.jpg"
+        "image": "/sneaker images/adidasboost.jpg"
     },
     {
         "id": 5,
         "name":"Adidas Daily 3.0",
         "price": 1200,
-        "image": "src/assets/adidas3.0.jpg"
+        "image": "/sneaker images/adidas3.0.jpg"
     },
     {
         "id": 6,
         "name":"Adidas Daily 4.0",
         "price": 1200,
-        "image": "src/assets/adidas4.jpg"
+        "image": "/sneaker images/adidas4.jpg"
     },
     {
         "id": 7,
         "name":"Adidas Runfalcom 3",
         "price": 1200,
-        "image": "src/assets/adidasrunfalcon3.jpg"
+        "image": "/sneaker images/adidasrunfalcon3.jpg"
     },
     {
         "id": 8,
         "name":"Adidas Dropset",
         "price": 1200,
-        "image": "src/assets/adidasdropset 3.jpg"
+        "image": "/sneaker images/adidasdropset 3.jpg"
     },
     {
         "id": 9,
         "name":"Adidas X_Plrpath",
         "price": 1200,
-        "image": "src/assets/adidasxplrpath.jpg"
+        "image": "/sneaker images/adidasxplrpath.jpg"
     },
     {
         "id": 10,
         "name":"Adidas Millennial AS",
         "price": 1200,
-        "image": "src/assets/adidasmillennial.jpeg"
+        "image": "/sneaker images/adidasmillennial.jpeg"
     },
     {
         "id": 11,
         "name":"Adidas Ozelia",
         "price": 1200,
-        "image": "src/assets/adidasozelia.jpg"
+        "image": "/sneaker images/adidasozelia.jpg"
     },
     {
         "id": 12,
         "name":"Adidas Cloud Foam",
         "price": 1200,
-        "image": "src/assets/adidascloudfoam.jpg"
+        "image": "/sneaker images/adidascloudfoam.jpg"
     }
 ]

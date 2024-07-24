@@ -1,27 +1,46 @@
 [
     {
         "id": 1,
-        "name":"Black oxford with rubber sole",
+        "name":"Men Wingtip Oxford Shoe",
         "price": 1200,
-        "image": "src/assets/all1.jpg",
-        "image2": "src/assets/Black oxford with rubber sole1.jpg"
+        "image": "/officialimages/Men Wingtip Oxford Shoe1.jpg",
+        "image4": "/officialimages/Men Wingtip Oxford Shoe 2.jpg",
+        "image2": "/officialimages/Men Wingtip Oxford Shoe 1.jpg",
+        "image3": "/officialimages/Men Wingtip Oxford Shoe 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
+        
     },
     {
         "id": 2,
-        "name":"Black Oxford rubber sole Berga 303",
+        "name":"Men's Patent Leather Dress Shoes",
         "price": 1200,
-        "image": "src/assets/officialimages/Black Oxford rubber sole Berga 303.jpg"
+        "image": "/officialimages/Men's Patent Leather Dress Shoes 2.jpg",
+        "image4": "/officialimages/Men's Patent Leather Dress Shoes 1.jpg",
+        "image2": "/officialimages/Men's Patent Leather Dress Shoes 3.jpg",
+        "image3": "/officialimages/Men's Patent Leather Dress Shoes 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
-        "name":"Men Wingtip Oxford Shoe",
+        "name":"Sofft Parisa Heels ",
         "price": 1200,
-        "image": "src/assets/officialimages/Men Wingtip Oxford Shoe1.jpg"
+        "image": "/officialimages/Sofft Parisa Heels 1.jpg",
+        "image4": "/officialimages/Sofft Parisa Heels 2.jpg",
+        "image2": "/officialimages/Sofft Parisa Heels 3.jpg",
+        "image3": "/officialimages/Sofft Parisa Heels 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
+    
     {
         "id": 4,
-        "name":"Madewell Bradley Leather Lugsole Loafers",
+        "name":"Men's Quality Patent Leather Shoes",
         "price": 1200,
-        "image": "/src/assets/officialimages/Madewell Bradley Leather Lugsole Loafers.jpg"
-    } 
+        "image": "/officialimages/Men's Quality Patent Leather Shoes 1.jpg",
+        "image4": "/officialimages/Men's Quality Patent Leather Shoes 2.jpg",
+        "image2": "/officialimages/Men's Quality Patent Leather Shoes 3.jpg",
+        "image3": "/officialimages/Men's Quality Patent Leather Shoes 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
+    }
+    
+     
 ]

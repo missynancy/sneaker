@@ -1,4 +1,4 @@
-
+/* 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -54,4 +54,7 @@
   .image-gallery img.selected {
     border-color: #000;
   }
-  
+   */
+   .product-details{
+    
+   }

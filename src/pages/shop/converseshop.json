@@ -1,51 +1,46 @@
-
-[
-    {
-        "id": 1,
-        "name":"PUMA Carina Street",
-        "price": 1200,
-        "image": "src/assets/converseimages/all2.jpg"
-    },
-    {
-        "id": 3,
-        "name":"PUMA Mayze",
-        "price": 1200,
-        "image": "src/assets/converseimages/all star hike.jpg"
-    },
-    {
-        "id": 3,
-        "name":"PUMA Men's Roma",
-        "price": 1200,
-        "image": "src/assets/pumaroma.jpg"
-    },
-    {
-        "id": 4,
-        "name":"PUMA Club 5v5 sneaker",
-        "price": 1200,
-        "image": "src/assets/pumasuede.jpg"
-    },
-    {
-        "id": 5,
-        "name":"PUMA  Retaliate",
-        "price": 1200,
-        "image": "src/assets/pumaretaliate.jpg"
-    },
-    {
-        "id": 6,
-        "name":"Puma 180",
-        "price": 1200,
-        "image": "src/assets/puma180.jpg"
-    },
-    {
-        "id": 7,
-        "name":"PUMA Road Rider",
-        "price": 1200,
-        "image": "src/assets/super-v4.jpg"
-    },
-    {
-        "id": 8,
-        "name":"PUMA Furure Rider",
-        "price": 1200,
-        "image": "src/assets/pumaroadrider.jpg"
-    }
-]
+    [
+        {
+            "id": 1,
+            "name":"All Star Hike",
+            "price": 1200,
+            "image": "/converseimages/all star hike.jpg",
+            "image4": "/converseimages/all_brown-removebg-preview.png",
+            "image2": "/converseimages/all_green-removebg-preview.png",
+            "image3": "/converseimages/all_red-removebg-preview.png",
+            "sizes" : [36, 38, 40, 42 ]
+            
+        },
+        {
+            "id": 2,
+            "name":"Chuck Taylor All Star Canvas Platform",
+            "price": 1200,
+            "image": "/converseimages/Chuck Taylor All Star Canvas Platform High Top 1.jpg",
+            "image4": "/converseimages/Chuck Taylor All Star Canvas Platform High Top 2.jpg",
+            "image2": "/converseimages/Chuck Taylor All Star Canvas Platform High Top 4.jpg",
+            "image3": "/converseimages/Chuck Taylor All Star Canvas Platform High Top.jpg",
+            "sizes" : [36, 38, 40, 42 ]
+        },
+        {
+            "id": 3,
+            "name":"Converse All Star Low Top Platform ",
+            "price": 1200,
+            "image": "/converseimages/Converse All Star Low Top Platform 2.jpg",
+            "image4": "/converseimages/Converse All Star Low Top Platform 3.jpg",
+            "image2": "/converseimages/Converse All Star Low Top Platform 4.jpg",
+            "image3": "/converseimages/Converse All Star Low Top Platform.jpg",
+            "sizes" : [36, 38, 40, 42 ]
+        },
+        
+        {
+            "id": 4,
+            "name":"Converse Chuck Taylor All Star Lugged 2.0",
+            "price": 1200,
+            "image": "/converseimages/Chuck Taylor All Star Lugged 2.0.jpg",
+            "image4": "/converseimages/Converse Chuck Taylor All Star Lugged 2.0.jpg",
+            "image2": "/converseimages/CHUCK TAYLOR ALL STAR LUGGED 2.0 3.jpg",
+            "image3": "/converseimages/Converse All Star Low Top Platform 4.jpg",
+            "sizes" : [36, 38, 40, 42 ]
+        }
+        
+         
+    ]

@@ -3,25 +3,42 @@
         "id": 1,
         "name":"Arizona Soft Footbed",
         "price": 1200,
-        "image": "src/assets/sandal images/Arizona Soft Footbed 1.jpg"
+        "image": "/sandal images/Arizona Soft Footbed 1.jpg",
+        "image2": "/sandal images/Arizona Soft Footbed2.jpg",
+        "image3": "/sandal images/Arizona Soft Footbed3.jpg",
+        "image4": "/sandal images/Arizona Soft Footbed4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
         
     },
     {
         "id": 2,
-        "name":"Boston Natural Leather",
+        "name":"Boston natural leather",
         "price": 1200,
-        "image": "src/assets/sandal images/Boston natural leather.jpg"
+        "image": "/sandal images/Boston natural leather.jpg",
+        "image2": "/sandal images/Boston Natural Leather2.jpg",
+        "image3": "/sandal images/Arizona Soft Footbed3.jpg",
+        "image4": "/sandal images/Boston natural leather.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
         "name":"Lugano Soft Footbed Suede Leather",
         "price": 1200,
-        "image": "src/assets/sandal images/Lugano Soft Footbed Suede Leather Sandal Taupe Men.jpg"
+        "image": "/sandal images/Lugano Soft Footbed Suede Leather Sandal Taupe Men.jpg",
+        "image2": "/sandal images/4.jpg",
+        "image3": "/sandal images/Lugano Soft Footbed Suede Leather3.jpg",
+        "image4": "/sandal images/Lugano Soft Footbed Suede Leather2.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 4,
-        "name":"Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes",
+        "name":" BIRKENSTOCK Milano ",
         "price": 1200,
-        "image": "src/assets/sandal images/Milano Kids.jpg"
+        "image": "/sandal images/Milano Kids.jpg",
+        "image2": "/sandal images/BIRKENSTOCK Milano 2.jpg",
+        "image3": "/sandal images/BIRKENSTOCK Milano 3.jpg",
+        "image4": "/sandal images/BIRKENSTOCK Milano 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
 ]
+

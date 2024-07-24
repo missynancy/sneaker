@@ -4,97 +4,49 @@
         "id": 1,
         "name":"New Balance 327",
         "price": 1200,
-        "image": "src/assets/new-327.jpg"
+        "image": "/sneaker images/new-327.jpg"
     },
     {
         "id": 2,
         "name":"New Balance 550",
         "price": 1200,
-        "image": "src/assets/new550.jpg"
+        "image": "/sneaker images/new550.jpg"
     },
     {
         "id": 3,
         "name":"New balance 574",
         "price": 1200,
-        "image": "src/assets/new574.jpg"
+        "image": "/sneaker images/new574.jpg"
     },
     {
         "id": 4,
         "name":"Fresh Foam X 1080v13",
         "price": 1200,
-        "image": "src/assets/Fresh Foam13.jpg"
+        "image": "/sneaker images/Fresh Foam13.jpg"
     },
     {
         "id": 5,
         "name":"Fresh Foam Arishi v4",
         "price": 1200,
-        "image": "src/assets/Arishi v4.jpg"
+        "image": "/sneaker images/Arishi v4.jpg"
     },
     {
         "id": 6,
         "name":"FuelCell Rebel v4",
         "price": 1200,
-        "image": "src/assets/FuelCell Rebel v4.jpg"
+        "image": "/sneaker images/FuelCell Rebel v4.jpg"
     },
     {
         "id": 7,
         "name":"FuelCell SuperComp Elite v4",
         "price": 1200,
-        "image": "src/assets/super-v4.jpg"
+        "image": "/sneaker images/super-v4.jpg"
     },
     {
         "id": 8,
         "name":"Fresh Foam 680v8",
         "price": 1200,
-        "image": "src/assets/new680.jpg"
-    },
-    {
-        "id": 9,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/all1.jpg"
-    },
-    {
-        "id": 10,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    {
-        "id": 11,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    {
-        "id": 12,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    {
-        "id": 13,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    {
-        "id": 14,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    
-    {
-        "id": 15,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
-    },
-    {
-        "id": 16,
-        "name":"Heels",
-        "price": 1200,
-        "image": "src/assets/zara heeels.jpg"
+        "image": "/sneaker images/new680.jpg"
     }
+    
 ]

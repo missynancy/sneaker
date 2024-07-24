@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "name":"Men Oxford Dress Sneaker",
+        "price": 1200,
+        "image": "/sneaker images/Men oxford dress sneaker.jpg"
+    },
+    {
+        "id": 3,
+        "name":"High Oxford Sneaker",
+        "price": 1200,
+        "image": "/sneaker images/High Oxford sneaker1.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Men Monk Strap Sneakers",
+        "price": 1200,
+        "image": "/sneaker images/men monk strap sneakers.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Men Double Strap Monk Sneakers",
+        "price": 1200,
+        "image": "/sneaker images/men double strap monk sneakers.jpg"
+    }
+]

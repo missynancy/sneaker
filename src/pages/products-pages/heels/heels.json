@@ -1,27 +1,44 @@
 [
     {
         "id": 1,
-        "name":"Saint Lauret",
+        "name":"Women Slingback Pumps Ankle Strap Jenlove Stiletto High Heel",
         "price": 1200,
-        "image": "src/assets/heelsimages/saint lauret.jpg"
+        "image": "/heelsimages/Women Slingback Pumps Ankle Strap Jenlove Stiletto High Heel 1.jpg",
+        "image2": "/heelsimages/Women Slingback Pumps Ankle Strap Jenlove Stiletto High Heel 2.jpg",
+        "image3": "/heelsimages/Women Slingback Pumps Ankle Strap Jenlove Stiletto High Heel 3.jpg",
+        "image4": "/heelsimages/sling back strap pump.jpg",
+        "sizes" : [36, 38, 40, 42 ]
         
     },
     {
         "id": 2,
-        "name":"Dior Heels",
+        "name":"BIGTREE Shoes High Heels Woman Pumps Stiletto Women Shoes",
         "price": 1200,
-        "image": "src/assets/heelsimages/Dior heels.jpg"
+        "image": "/heelsimages/BIGTREE Shoes High Heels Woman Pumps Stiletto Women Shoes 2.jpg",
+        "image2": "/heelsimages/BIGTREE Shoes High Heels Woman Pumps Stiletto Women Shoes 3.jpg",
+        "image3": "/heelsimages/BIGTREE Shoes High Heels Woman Pumps Stiletto Women Shoes 4.jpg",
+        "image4": "/heelsimages/BIGTREE Shoes High Heels Woman Pumps Stiletto Women Shoes1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
-        "name":"Shoes Rivet High Heels",
+        "name":"Suede Shallow Mouth Pointed Toe Sexy Heels",
         "price": 1200,
-        "image": "src/assets/heelsimages/Shoes Rivet High Heels Woman Pumps Pu Leather Women Heels 9cm.jpg"
+        "image": "/heelsimages/Suede Shallow Mouth Pointed Toe Sexy Heels 3.jpg",
+        "image2": "/heelsimages/Suede Shallow Mouth Pointed Toe Sexy Heels 4.jpg",
+        "image3": "/heelsimages/Suede Shallow Mouth Pointed Toe Sexy Heels 5.jpg",
+        "image4": "/heelsimages/Suede Shallow Mouth Pointed Toe Sexy Heels 6.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 4,
-        "name":"Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes",
+        "name":" Chunky Velvet Heels Uncle Strap ",
         "price": 1200,
-        "image": "src/assets/heelsimages/Women’s Low-Cut Pointed-Toe Side Hollow-Out Shoes.jpg"
+        "image": "/heelsimages/Chunky Velvet Heels.jpg",
+        "image2": "/sandal images/BIRKENSTOCK Milano 2.jpg",
+        "image3": "/heelsimages/Chunky Velvet Heels 1.jpg",
+        "image4": "/heelsimages/Chunky Velvet Heels 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
 ]
+

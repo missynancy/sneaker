@@ -7,14 +7,14 @@ export const Heels = () => {
     return (
         <>
         <Header />
-        <div className='shop'>
-          <ul className='shoe-link'>
+        <div className='shop shop-p' >
+          {/* <ul className='shoe-link'>
             <li><a href="#nike">Zara</a></li>
             <li><a href="#puma">Chunky</a></li>
             <li><a href="#newbalance">New Balance</a></li>
             <li><a href="#adidas">Adidas</a></li>
             
-          </ul>
+          </ul> */}
         
           <div className="shop-sneaker margin" id="converse">
           <h1>Heels</h1>

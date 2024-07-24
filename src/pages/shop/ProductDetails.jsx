@@ -1,48 +1,109 @@
-// src/pages/ProductDetail.js
-import React, { useContext } from 'react';
-import { useState } from 'react';
+import React, { useContext, useState , useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import products from './Products.json'
+import sneaker from './Products.json'
+import sandals from './sandalshop.json'
+import sandalshop from '../products-pages/scandals/sandals.json'
+import kids from './kidsShop.json'
+import heels from './heelshop.json'
+import converse from './converseshop.json'
+import formal from './Shopofficial.json'
 import { CartContext } from '../cart/CartDetails';
 import { Header } from '../../components/Header';
+ // Assuming you have styles in this file
 
 export const ProductDetails = () => {
-    const { id } = useParams();
-    const [selectedSize, setSelectedSize] = useState(null);
-    const { addToCart } = useContext(CartContext); // Use CartContext to get addToCart function
-    const product = products.find(p => p.id === parseInt(id));
-  
-    if (!product) {
-      return <div>Product not found</div>;
+  const { addToCart } = useContext(CartContext);
+  const { id, brand } = useParams();
+  const [selectedSize, setSelectedSize] = useState(null);
+  const [mainImage, setMainImage] = useState('');
+  const productId = Number(id); // Convert id to a number for comparison
+
+  let product;
+  switch (brand) {
+    case 'sneaker':
+      product = sneaker.find(item => item.id === productId);
+      break;
+    case 'converse':
+      product = converse.find(item => item.id === productId);
+      break;
+    case 'formal':
+      product = formal.find(item => item.id === productId);
+      break;
+    case 'heels':
+      product = heels.find(item => item.id === productId);
+      break;
+    case 'sandals':
+      product = sandals.find(item => item.id === productId);
+      break;
+      case 'sandalshop':
+      product = sandalshop.find(item => item.id === productId);
+      break;
+      case 'kids':
+      product = kids.find(item => item.id === productId);
+      break;
+    
+    default:
+      product = null;
+      break;
+  }
+
+  useEffect(() => {
+    if (product) {
+      setMainImage(product.image); // Initialize main image with product image
     }
-  
-    const handleSizeSelect = (size) => {
-      setSelectedSize(size);
-    };
-  
-    const AddToCart = () => {
-      if (selectedSize) {
-        addToCart({ ...product, size: selectedSize });
-      } else {
-        alert('Please select a size.');
-      }
-    };
+  }, [product]);
+
+  if (!product) {
+    return <div>Sneaker not found</div>;
+  }
+
+  console.log('Product:', product);
+
+  const handleSizeSelect = (size) => {
+    setSelectedSize(size);
+  };
+
+  const handleImageClick = (image) => {
+    setMainImage(image);
+  };
+
+  const handleAddToCart = () => {
+    if (selectedSize) {
+      addToCart({ ...product, size: selectedSize });
+    } else {
+      alert('Please select a size.');
+    }
+  };
 
   return (
     <>
       <Header />
-      
       <div className='product-details'>
         <div className="product-img">
-            <img src={product.image} alt={product.name} />
+          <div className="main-img">
+            <img src={mainImage} alt={product.name} />
+          </div>
+          <div className="thumbnail-container">
+            {[product.image, product.image2, product.image3, product.image4].map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)}
+              />
+            ))}
+          </div>
         </div>
-            <div className="product-cont">
-            <h1>{product.name}</h1>
-            <h2>{product.price}</h2>
-            <p>Product details go here...</p>
-            <div className="size">
+
+        <div className="product-cont">
+          <h1>{product.name}</h1>
+          <h2>{product.price}</h2>
+          <p>Product details go here...</p>
+          <div className="size">
             <h4>Sizes</h4>
-            {[36, 38, 40, 42, 44].map(size => (
+            {product.sizes.map(size => (
               <button
                 key={size}
                 onClick={() => handleSizeSelect(size)}
@@ -52,10 +113,9 @@ export const ProductDetails = () => {
               </button>
             ))}
           </div>
-            <button className='btn' onClick={AddToCart}>Add to Cart</button>
+          <Link className='btn' onClick={handleAddToCart}>Add to Cart</Link>
         </div>
       </div>
-      
     </>
   );
 };
