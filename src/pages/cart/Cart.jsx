@@ -35,13 +35,15 @@ const Cart = () => {
             <hr />
             <div className="cart-checkout">
                 <h1>Items</h1>
-                <hr className='hr'/>
+                
                 <div className='check-price'>
                     <h2>Total:</h2> 
                     <h2>{getTotalPrice()}</h2>
                 </div>
-                <hr className='hr'/>
-                <button onClick={() => alert('Checkout functionality to be implemented')}>Checkout</button>
+                
+                <Link to='/payment'>
+                  Checkout
+                </Link>
             </div>
           </div>
         )}

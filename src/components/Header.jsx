@@ -28,7 +28,7 @@ export const Header = () => {
             <NavLink to='/converse'>Converse <i className='bx bx-chevron-right'></i></NavLink>
             <NavLink to='/officials'>Officials Shoes <i className='bx bx-chevron-right'></i></NavLink>
             <NavLink to='/heels'>Heels <i className='bx bx-chevron-right'></i></NavLink>
-            <NavLink to='/scandals'>Scandals <i className='bx bx-chevron-right'></i></NavLink>
+            <NavLink to='/sandals'>Sandals <i className='bx bx-chevron-right'></i></NavLink>
             <NavLink to='/kids'>Kids Shoes <i className='bx bx-chevron-right'></i></NavLink>
           </li>
         </ul>

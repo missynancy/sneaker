@@ -4,48 +4,80 @@
         "id": 1,
         "name":"PUMA Carina Street",
         "price": 1200,
-        "image": "/sneaker images/pumacarinna.jpg"
+        "image": "/sneaker images/PUMA Carina Street1.jpg",
+        "image4": "/sneaker images/PUMA Carina Street2.jpg",
+        "image2": "/sneaker images/PUMA Carina Street3.jpg",
+        "image3": "/sneaker images/PUMA Carina Street4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
-        "id": 3,
+        "id": 2,
         "name":"PUMA Mayze",
         "price": 1200,
-        "image": "/sneaker images/pumamayze.jpg"
+        "image": "/sneaker images/Puma mayze.jpg",
+        "image4": "/sneaker images/puma mayze 1.jpg",
+        "image2": "/sneaker images/puma mayze 3.jpg",
+        "image3": "/sneaker images/puma mayze2.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
         "name":"PUMA Men's Roma",
         "price": 1200,
-        "image": "/sneaker images/pumaroma.jpg"
+        "image": "/sneaker images/PUMA Men's Roma1.jpg",
+        "image4": "/sneaker images/PUMA Men's Roma4.jpg",
+        "image2": "/sneaker images/PUMA Men's Roma2.jpg",
+        "image3": "/sneaker images/PUMA Men's Roma3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 4,
         "name":"PUMA Club 5v5 sneaker",
         "price": 1200,
-        "image": "/sneaker images/pumasuede.jpg"
+        "image": "/sneaker images/PUMA Club 5v5 sneaker1.jpg",
+        "image4": "/sneaker images/PUMA Club 5v5 sneaker2.jpg",
+        "image2": "/sneaker images/PUMA Club 5v5 sneaker3.jpg",
+        "image3": "/sneaker images/PUMA Club 5v5 sneaker4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 5,
-        "name":"PUMA  Retaliate",
+        "name":"PUMA  Retaliate 2",
         "price": 1200,
-        "image": "/sneaker images/pumaretaliate.jpg"
+        "image": "/sneaker images/pumaretaliate.jpg",
+        "image4": "/sneaker images/PUMA Retaliate1.jpg",
+        "image2": "/sneaker images/PUMA Retaliate2.jpg",
+        "image3": "/sneaker images/PUMA Retaliate3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 6,
         "name":"Puma 180",
         "price": 1200,
-        "image": "/sneaker images/puma180.jpg"
+        "image": "/sneaker images/puma180.jpg",
+        "image4": "/sneaker images/Puma 180 1.jpg",
+        "image2": "/sneaker images/Puma 180 2.jpg",
+        "image3": "/sneaker images/Puma 180 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 7,
-        "name":"PUMA Road Rider",
+        "name":"Puma St Runner V3 Mesh",
         "price": 1200,
-        "image": "/sneaker images/super-v4.jpg"
+        "image": "/sneaker images/Puma St Runner V3 Mesh 1.jpg",
+        "image4": "/sneaker images/Puma St Runner V3 Mesh 2.jpg",
+        "image2": "/sneaker images/Puma St Runner V3 Mesh 3.jpg",
+        "image3": "/sneaker images/Puma St Runner V3 Mesh 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 8,
         "name":"PUMA Furure Rider",
         "price": 1200,
-        "image": "/sneaker images/pumaroadrider.jpg"
+        "image": "/sneaker images/PUMA Road Rider 1.jpg",
+        "image4": "/sneaker images/PUMA Road Rider 2.jpg",
+        "image2": "/sneaker images/PUMA Road Rider 3.jpg",
+        "image3": "/sneaker images/PUMA Road Rider 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
 ]

@@ -59,7 +59,7 @@ const SneakerDetails = () => {
 
   const handleAddToCart = () => {
     if (selectedSize) {
-      addToCart({ ...product, size: selectedSize });
+      addToCart({ ...product, size: selectedSize, image: mainImage });
     } else {
       alert('Please select a size.');
     }

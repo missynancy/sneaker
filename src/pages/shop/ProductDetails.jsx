@@ -1,5 +1,5 @@
 import React, { useContext, useState , useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import { useParams } from 'react-router-dom';
 import sneaker from './Products.json'
 import sandals from './sandalshop.json'
@@ -8,6 +8,8 @@ import kids from './kidsShop.json'
 import heels from './heelshop.json'
 import converse from './converseshop.json'
 import formal from './Shopofficial.json'
+import latest from '../Latest/latest.json'
+import newitem from '../new.json'
 import { CartContext } from '../cart/CartDetails';
 import { Header } from '../../components/Header';
  // Assuming you have styles in this file
@@ -42,6 +44,12 @@ export const ProductDetails = () => {
       case 'kids':
       product = kids.find(item => item.id === productId);
       break;
+      case 'latest':
+      product = latest.find(item => item.id === productId);
+      break;
+      case 'newitem':
+      product = newitem.find(item => item.id === productId);
+      break;
     
     default:
       product = null;
@@ -70,7 +78,7 @@ export const ProductDetails = () => {
 
   const handleAddToCart = () => {
     if (selectedSize) {
-      addToCart({ ...product, size: selectedSize });
+      addToCart({ ...product, size: selectedSize, image: mainImage });
     } else {
       alert('Please select a size.');
     }
@@ -113,7 +121,7 @@ export const ProductDetails = () => {
               </button>
             ))}
           </div>
-          <Link className='btn' onClick={handleAddToCart}>Add to Cart</Link>
+          <button className='btn' onClick={handleAddToCart}>Add to Cart</button>
         </div>
       </div>
     </>

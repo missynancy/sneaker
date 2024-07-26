@@ -24,9 +24,9 @@
             "id": 3,
             "name":"men monk Strap Sneakers",
             "price": 1200,
-            "image": "/sneaker images/men monk strap sneakers.jpg",
-            "image4": "/sneaker images/monk strap sneaker 1.jpg",
-            "image2": "/sneaker images/Men Monks strap sneakers.jpg",
+            "image2": "/sneaker images/men monk strap sneakers.jpg",
+            "image4": "/sneaker images/Men Monks strap Black Suede.jpg",
+            "image": "/sneaker images/Men Monks strap sneakers.jpg",
             "image3": "/sneaker images/Men Monk Strap Sneaker Brown Suede1.jpg",
             "sizes" : [36, 38, 40, 42 ]
         },
@@ -34,10 +34,10 @@
             "id": 4,
             "name":"Puma mayze",
             "price": 1200,
-            "image": "/sneaker images/pumamayze.jpg",
-            "image4": "/sneaker images/new550 whitebrown.jpg",
-            "image2": "/sneaker images/new550 marron.jpg",
-            "image3": "/sneaker images/new550 green.jpg",
+            "image": "/sneaker images/Puma mayze.jpg",
+            "image4": "/sneaker images/puma mayze 1.jpg",
+            "image2": "/sneaker images/puma mayze 3.jpg",
+            "image3": "/sneaker images/puma mayze2.jpg",
             "sizes" : [36, 38, 40, 42 ]
         },
         {

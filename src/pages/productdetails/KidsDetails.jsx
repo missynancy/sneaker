@@ -1,7 +1,7 @@
 // src/pages/ProductDetail.js
 import React, { useContext } from 'react';
-import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import kids from '../products-pages/kids/kids.json'
 import { CartContext } from '../cart/CartDetails';
 import { Header } from '../../components/Header';
@@ -13,13 +13,17 @@ export const KidsDetails = () => {
   const { addToCart } = useContext(CartContext);
   const product = kids.find(p => p.id === parseInt(id));
 
+  useEffect(() => {
+    if (product) {
+      setMainImage(product.image); // Initialize main image with product image
+    }
+  }, [product]);
+
   if (!product) {
-    return <div>Product not found</div>;
+    return <div>Sneaker not found</div>;
   }
 
-  if (!mainImage) {
-    setMainImage(product.image); // Initialize main image if not set
-  }
+  console.log('Product:', product);
 
   const handleSizeSelect = (size) => {
     setSelectedSize(size);
@@ -29,9 +33,9 @@ export const KidsDetails = () => {
     setMainImage(image);
   };
 
-  const AddToCart = () => {
+  const handleAddToCart = () => {
     if (selectedSize) {
-      addToCart({ ...product, size: selectedSize });
+      addToCart({ ...product, size: selectedSize, image: mainImage });
     } else {
       alert('Please select a size.');
     }
@@ -40,25 +44,24 @@ export const KidsDetails = () => {
   return (
     <>
       <Header />
-      
       <div className='product-details'>
         <div className="product-img">
           <div className="main-img">
-            <img  src={mainImage} alt={product.name} />
+            <img src={mainImage} alt={product.name} />
           </div>
           <div className="thumbnail-container">
-          {[product.image, product.image2, product.image3, product.image4].map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Thumbnail ${index + 1}`}
-              className="thumbnail"
-              onClick={() => handleImageClick(image)}
-            />
-          ))}
+            {[product.image, product.image2, product.image3, product.image4].map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)}
+              />
+            ))}
+          </div>
         </div>
-        </div>
-        
+
         <div className="product-cont">
           <h1>{product.name}</h1>
           <h2>{product.price}</h2>
@@ -75,10 +78,9 @@ export const KidsDetails = () => {
               </button>
             ))}
           </div>
-          <Link to='/cart' onClick={AddToCart}>Add to Cart</Link>
+          <button className='btn' onClick={handleAddToCart}>Add to Cart</button>
         </div>
       </div>
-      
     </>
   );
 };

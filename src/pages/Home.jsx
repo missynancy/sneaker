@@ -5,6 +5,8 @@ import data from '../assets/data/FeaturesData';
 import { Background } from '../components/hero/Background';
 // import { Latest } from '../Latest/Latest';
 import { Hero } from '../components/hero/Hero';
+import { Latest } from './Latest/Latest';
+import { New } from './New';
 
 export const Home = () => {
   const [selectedFeature, setSelectedFeature] = useState(null);
@@ -35,6 +37,7 @@ export const Home = () => {
 
   return (
     <>
+      <div className="landing-page">
       <div className="home">
         <>
         <div className="backcircle"></div>
@@ -85,8 +88,17 @@ export const Home = () => {
           }
         </div>
       </div>
+      <div className="new-latest">
+      <h1>New Arrivals</h1>
       <div className="latest">
-        {/* <Latest latestPlay={latestPlay} /> */}
+        <div className="latest-1">
+          < New />
+        </div>
+        <div className="latest-2">
+         <Latest />
+        </div>
+      </div>
+      </div>
       </div>
       
     </>

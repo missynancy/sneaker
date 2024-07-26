@@ -4,13 +4,13 @@ import "./Navbar.css"
 
 export const Navbar = () => {
     const [menuOpen, setOpenMenu] = useState(false);
-    const [sideOpen, setSideOpen] = useState(false);
-    const [cartOpen, setCartOpen] = useState(false);
+    // const [sideOpen, setSideOpen] = useState(false);
+    // const [cartOpen, setCartOpen] = useState(false);
 
   return (
     <nav>
         <div className="nav1" id='nav1'>
-            <NavLink to="/" className='title'>LOGO</NavLink>
+            <NavLink to="/" className='title'>Shoe Store</NavLink>
             <div 
                 className='menu' 
                 onClick={() => {

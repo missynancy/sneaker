@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="footer-container">
             <div className="footer-contact">
-                <Link to='/'>Logo</Link>
+                <Link to='/'>Shoe Store</Link>
                 <p>Contacts</p>
                 <Link>
                     <i className='bx bx-phone'></i><p>(+254)7 00 000 000</p>

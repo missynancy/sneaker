@@ -3,7 +3,7 @@ import nike from './nike.json';
 import puma from './puma.json';
 import sneakers from './sneakers.json';
 import addidas from './addidas.json';
-import oxford from './oxford.json'
+// import oxford from './oxford.json'
 import { Link } from 'react-router-dom';
 import { Header } from '../../../components/Header';
 
@@ -83,7 +83,7 @@ export const Sneakers = () => {
           </div>
         </div>
         <a className='back-top' href="#nav1">Back to top <i className='bx bx-up-arrow-alt'></i></a>
-        <div className="shop-sneakers margin" id='oxford'>
+        {/* <div className="shop-sneakers margin" id='oxford'>
           <h1>Oxford</h1>
           <div className="shop-content">
             {oxford && oxford.length ? oxford.map(item => (
@@ -98,7 +98,7 @@ export const Sneakers = () => {
             )) : null}
           </div>
         </div>
-        <a className='back-top' href="#nav1">Back to top <i className='bx bx-up-arrow-alt'></i></a>
+        <a className='back-top' href="#nav1">Back to top <i className='bx bx-up-arrow-alt'></i></a> */}
       </div>
     </>
   );

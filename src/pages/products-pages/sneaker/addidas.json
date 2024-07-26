@@ -4,72 +4,120 @@
         "id": 1,
         "name":"Adidas Questar 3",
         "price": 1200,
-        "image": "/sneaker images/adidasquestar.jpg"
+        "image": "/sneaker images/adidasquestar.jpg",
+        "image4": "/sneaker images/Adidas Questar 3 1.jpg",
+        "image2": "/sneaker images/Adidas Questar 3 2.jpg",
+        "image3": "/sneaker images/Adidas Questar 3 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 2,
         "name":"Adidas Runfalcon 5",
         "price": 1200,
-        "image": "/sneaker images/addidasrunfalcon5.jpg"
+        "image": "/sneaker images/Adidas Runfalcon 5 1.jpg",
+        "image4": "/sneaker images/Adidas Runfalcon 5 2.jpg",
+        "image2": "/sneaker images/Adidas Runfalcon 5 3.jpg",
+        "image3": "/sneaker images/Adidas Runfalcon 5 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
         "name":"Adidas Swift Run",
         "price": 1200,
-        "image": "/sneaker images/adidasswift.jpg"
+        "image4": "/sneaker images/adidas Men's Swift Run 1.jpg",
+        "image": "/sneaker images/adidas Men's Swift Run 2.jpg",
+        "image2": "/sneaker images/adidas Men's Swift Run 3.jpg",
+        "image3": "/sneaker images/adidas Men's Swift Run 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 4,
-        "name":"Adidas AltraBoost X5",
+        "name":"Adidas AltraBoost 22",
         "price": 1200,
-        "image": "/sneaker images/adidasboost.jpg"
+        "image": "/sneaker images/adidas Ultraboost 22  5.jpg",
+        "image4": "/sneaker images/adidas Ultraboost 22  4.jpg",
+        "image2": "/sneaker images/adidas Ultraboost 22  3.jpg",
+        "image3": "/sneaker images/adidas Ultraboost 22 1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 5,
         "name":"Adidas Daily 3.0",
         "price": 1200,
-        "image": "/sneaker images/adidas3.0.jpg"
+        "image": "/sneaker images/adidas3.0.jpg",
+        "image4": "/sneaker images/Adidas Daily 3.0 1.jpg",
+        "image2": "/sneaker images/Adidas Daily 3.0 2.jpg",
+        "image3": "/sneaker images/Adidas Daily 3.0.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 6,
         "name":"Adidas Daily 4.0",
         "price": 1200,
-        "image": "/sneaker images/adidas4.jpg"
+        "image": "/sneaker images/adidas4.jpg",
+        "image4": "/sneaker images/Adidas Daily 4.0 1.jpg",
+        "image2": "/sneaker images/Adidas Daily 4.0 2.jpg",
+        "image3": "/sneaker images/Adidas Daily 4.0 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 7,
         "name":"Adidas Runfalcom 3",
         "price": 1200,
-        "image": "/sneaker images/adidasrunfalcon3.jpg"
+        "image": "/sneaker images/Adidas Runfalcom 3 2.jpg",
+        "image4": "/sneaker images/Adidas Runfalcom 3 1.jpg",
+        "image2": "/sneaker images/adidasrunfalcon3.jpg",
+        "image3": "/sneaker images/Adidas Runfalcom 3 1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 8,
         "name":"Adidas Dropset",
         "price": 1200,
-        "image": "/sneaker images/adidasdropset 3.jpg"
+        "image": "/sneaker images/Adidas Dropset 1.jpg",
+        "image4": "/sneaker images/Adidas Dropset 2.jpg",
+        "image2": "/sneaker images/Adidas Dropset 3.jpg",
+        "image3": "/sneaker images/Adidas Dropset 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 9,
         "name":"Adidas X_Plrpath",
         "price": 1200,
-        "image": "/sneaker images/adidasxplrpath.jpg"
+        "image": "/sneaker images/adidasxplrpath.jpg",
+        "image4": "/sneaker images/FuelCell SuperComp Elite v4 2.jpg",
+        "image2": "/sneaker images/FuelCell SuperComp Elite v4 3.jpg",
+        "image3": "/sneaker images/FuelCell SuperComp Elite v4 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 10,
-        "name":"Adidas Millennial AS",
+        "name":"Adidas Sambarose",
         "price": 1200,
-        "image": "/sneaker images/adidasmillennial.jpeg"
+        "image": "/sneaker images/adidasmillennial.jpeg",
+        "image4": "/sneaker images/adidas samba rose 2.jpg",
+        "image2": "/sneaker images/Adidas Sambarose 2.jpg",
+        "image3": "/sneaker images/Adidas Sambarose 2.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 11,
         "name":"Adidas Ozelia",
         "price": 1200,
-        "image": "/sneaker images/adidasozelia.jpg"
+        "image": "/sneaker images/Adidas Ozelia 1.jpg",
+        "image4": "/sneaker images/Adidas Ozelia 2.jpg",
+        "image2": "/sneaker images/Adidas Ozelia 3.jpg",
+        "image3": "/sneaker images/Adidas Ozelia 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 12,
-        "name":"Adidas Cloud Foam",
+        "name":"Adidas NMD_R1 Shoes",
         "price": 1200,
-        "image": "/sneaker images/adidascloudfoam.jpg"
+        "image": "/sneaker images/Adidas NMD_R1 Shoes 3.jpg",
+        "image4": "/sneaker images/Adidas NMD_R1 Shoes 2.jpg",
+        "image2": "/sneaker images/Adidas NMD_R1 Shoes 1.jpg",
+        "image3": "/sneaker images/Adidas NMD_R1 Shoes 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
 ]

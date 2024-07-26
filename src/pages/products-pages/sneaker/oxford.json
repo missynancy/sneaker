@@ -1,27 +1,43 @@
 
 [
     {
-        "id": 1,
+        "id": 5,
         "name":"Men Oxford Dress Sneaker",
         "price": 1200,
-        "image": "/sneaker images/Men oxford dress sneaker.jpg"
+        "image": "/sneaker images/Men oxford dress sneaker.jpg",
+        "image4": "/sneaker images/monk strap sneaker 1.jpg",
+        "image2": "/sneaker images/Men Monks strap sneakers.jpg",
+        "image3": "/sneaker images/Men Monk Strap Sneaker Brown Suede1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
-        "id": 3,
+        "id": 6,
         "name":"High Oxford Sneaker",
         "price": 1200,
-        "image": "/sneaker images/High Oxford sneaker1.jpg"
+        "image2": "/sneaker images/High Oxford sneaker1.jpg",
+        "image4": "/sneaker images/High Oxford Sneaker2.jpg",
+        "image": "/sneaker images/High Oxford Sneaker3.jpg",
+        "image3": "/sneaker images/High Oxford Sneaker4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
-        "id": 3,
+        "id": 7,
         "name":"Men Monk Strap Sneakers",
         "price": 1200,
-        "image": "/sneaker images/men monk strap sneakers.jpg"
+        "image2": "/sneaker images/men monk strap sneakers.jpg",
+        "image4": "/sneaker images/Men Monks strap Black Suede.jpg",
+        "image": "/sneaker images/Men Monks strap sneakers.jpg",
+        "image3": "/sneaker images/Men Monk Strap Sneaker Brown Suede1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
-        "id": 4,
+        "id": 8,
         "name":"Men Double Strap Monk Sneakers",
         "price": 1200,
-        "image": "/sneaker images/men double strap monk sneakers.jpg"
+        "image": "/sneaker images/men double strap monk sneakers.jpg",
+        "image4": "/sneaker images/High Oxford Sneaker 2.jpg",
+        "image2": "/sneaker images/High Oxford Sneaker 1.jpg",
+        "image3": "/sneaker images/High Oxford Sneaker 1.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
 ]

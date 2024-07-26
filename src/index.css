@@ -1,3 +1,8 @@
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 /* 
 @tailwind base;
 @tailwind components;
@@ -55,6 +60,143 @@
     border-color: #000;
   }
    */
-   .product-details{
+   .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact-page a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .contact-page a:hover{
+    box-shadow: 0 0 25px orange;
+  }
+  .contact-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .contact-form {
+    width: 60%;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus{
+    box-shadow: 0 0 25px rgb(236, 189, 101);
+  }
+  .contact-form button {
+    padding: 10px;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .contact-form button:hover {
+    box-shadow: 0 0 25px orange;
+  }
+  
+  /* Payment */
+  .payment-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #c2bebe;
+  }
+  
+  .payment-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .payment-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-summary {
+    width: 50%;
+    justify-content: space-between;
+    background-color: #fff;
     
-   }
+  }
+  
+  .order-summary h2 {
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .summary-item:nth-child(even){
+    background-color: #c2bebe;
+  }
+  
+  .summary-item img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  

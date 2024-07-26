@@ -4,49 +4,81 @@
         "id": 1,
         "name":"New Balance 327",
         "price": 1200,
-        "image": "/sneaker images/new-327.jpg"
+        "image": "/sneaker images/new-327.jpg",
+        "image4": "/sneaker images/New Balance 327 1.jpg",
+        "image2": "/sneaker images/New Balance 327 2.jpg",
+        "image3": "/sneaker images/New Balance 327 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 2,
         "name":"New Balance 550",
         "price": 1200,
-        "image": "/sneaker images/new550.jpg"
+        "image": "/sneaker images/new550.jpg",
+        "image4": "/sneaker images/new550 whitebrown.jpg",
+        "image2": "/sneaker images/new550 marron.jpg",
+        "image3": "/sneaker images/new550 green.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 3,
         "name":"New balance 574",
         "price": 1200,
-        "image": "/sneaker images/new574.jpg"
+        "image": "/sneaker images/new574.jpg",
+        "image4": "/sneaker images/New balance 574 1.jpg",
+        "image2": "/sneaker images/New balance 574 2.jpg",
+        "image3": "/sneaker images/New balance 574 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 4,
         "name":"Fresh Foam X 1080v13",
         "price": 1200,
-        "image": "/sneaker images/Fresh Foam13.jpg"
+        "image": "/sneaker images/Fresh Foam X 1080v13 1.jpg",
+        "image4": "/sneaker images/Fresh Foam X 1080v13 2.jpg",
+        "image2": "/sneaker images/Fresh Foam X 1080v13 4.jpg",
+        "image3": "/sneaker images/Fresh Foam X 1080v13 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 5,
         "name":"Fresh Foam Arishi v4",
         "price": 1200,
-        "image": "/sneaker images/Arishi v4.jpg"
+        "image": "/sneaker images/Arishi v4.jpg",
+        "image4": "/sneaker images/Fresh Foam Arishi v4 1.jpg",
+        "image2": "/sneaker images/Fresh Foam Arishi v4 2.jpg",
+        "image3": "/sneaker images/Fresh Foam Arishi v4 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 6,
         "name":"FuelCell Rebel v4",
         "price": 1200,
-        "image": "/sneaker images/FuelCell Rebel v4.jpg"
+        "image": "/sneaker images/FuelCell Rebel v4 1.jpg",
+        "image4": "/sneaker images/FuelCell Rebel v4 2.jpg",
+        "image2": "/sneaker images/FuelCell Rebel v4 3.jpg",
+        "image3": "/sneaker images/FuelCell Rebel v4 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 7,
         "name":"FuelCell SuperComp Elite v4",
         "price": 1200,
-        "image": "/sneaker images/super-v4.jpg"
+        "image": "/sneaker images/FuelCell SuperComp Elite v4 1.jpg",
+        "image4": "/sneaker images/FuelCell SuperComp Elite v4 2.jpg",
+        "image2": "/sneaker images/FuelCell SuperComp Elite v4 3.jpg",
+        "image3": "/sneaker images/FuelCell SuperComp Elite v4 4.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     },
     {
         "id": 8,
         "name":"Fresh Foam 680v8",
         "price": 1200,
-        "image": "/sneaker images/new680.jpg"
+        "image": "/sneaker images/new680.jpg",
+        "image4": "/sneaker images/Fresh Foam 680v8 1.jpg",
+        "image2": "/sneaker images/Fresh Foam 680v8 2.jpg",
+        "image3": "/sneaker images/Fresh Foam 680v8 3.jpg",
+        "sizes" : [36, 38, 40, 42 ]
     }
     
 ]

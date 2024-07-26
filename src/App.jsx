@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer.jsx';
 import { Route, Routes } from 'react-router-dom';
-import { Contact } from './pages/Contact.jsx';
+import Contact from './pages/Contact.jsx'
 import { Service } from './pages/Blog.jsx';
 import { Shop } from './pages/shop/Shop.jsx';
 import { Home } from './pages/Home.jsx';
@@ -20,6 +20,8 @@ import { HeelsDetails } from './pages/productdetails/HeelsDetails.jsx';
 import { SandalsDetails } from './pages/productdetails/SandalDetails.jsx';
 import { KidsDetails } from './pages/productdetails/KidsDetails.jsx';
 import { ProductDetails } from './pages/shop/ProductDetails.jsx';
+import Payment from './pages/cart/Payment.jsx';
+
 import Cart from './pages/cart/Cart.jsx';
 
 function App() {
@@ -38,6 +40,7 @@ function App() {
         <Route path='/sandals' element={<Sandals />} />
         <Route path='/kids' element={<Kids />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/payment' element={<Payment />} />
         <Route path='/sneakerdetails/:brand/:id' element={<SneakerDetails />} />
         <Route path='/pumadetails/:id' element={<PumaDetails />} />
         <Route path='/conversedetails/:id' element={<ConverseDetails />} />
