@@ -10,7 +10,7 @@ export const Navbar = () => {
   return (
     <nav>
         <div className="nav1" id='nav1'>
-            <NavLink to="/" className='title'>Shoe Store</NavLink>
+            <NavLink to="/" className='title'>Missy Stores</NavLink>
             <div 
                 className='menu' 
                 onClick={() => {

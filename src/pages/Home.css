@@ -125,7 +125,86 @@
   .new-product button:hover{
     box-shadow: 0 0 25px orange;
   }
+
+  .home-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  .links-1{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .home-links a{
+    text-decoration: none;
+    color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+  }
+  .home-links a:hover{
+    background-color: orange;
+    color: white;
+  }
+  .link-1-content{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+  }
+  .links-1-1{
+    width: 49.5%;
+    height: 100%;
+    position: relative;
+  }
+  .home-links img{
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+    background-color: #636161;
+    border-radius: 10px;
+  }
+  .links-1-2{
+    width: 49.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
   
+  .home-links img:hover{
+    object-fit: cover;
+  }
+  .links-1-2-1 img{
+    width: 100%;
+    object-fit: contain;
+    background-color: #636161;
+    border-radius: 10px;
+  }
+  .links-1-2-1,
+  .links-1-2-2{
+    width: 49%;
+    position: relative;
+  }
+  .links-1-2-2 img{
+    width: 100%;
+    object-fit: contain;
+    background-color: #636161;
+    border-radius: 10px;
+  }
+  .links-2{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+  }
   
 
  

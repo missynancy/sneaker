@@ -4,7 +4,6 @@ import { Header } from '../../components/Header';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-
 const Payment = () => {
   const { cart, getTotalPrice } = useContext(CartContext);
   const [paymentMethod, setPaymentMethod] = useState('card');
@@ -29,9 +28,24 @@ const Payment = () => {
     setPaymentMethod(e.target.value);
   };
 
+  const validateCardDetails = () => {
+    const { cardNumber, expiryDate, cvv, cardName } = formData;
+    return (
+      cardNumber.length >= 16 &&
+      expiryDate.length === 5 && 
+      cvv.length === 3 && 
+      cardName.trim() !== ''
+    );
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
     if (paymentMethod === 'card') {
+      if (!validateCardDetails()) {
+        alert('Please provide valid card details.');
+        return;
+      }
       alert('Card payment successful!');
       navigate('/'); // Navigate to home or order confirmation page after payment
     } else if (paymentMethod === 'mpesa') {
@@ -44,11 +58,11 @@ const Payment = () => {
           alert('M-Pesa payment successful!');
           navigate('/'); // Navigate to home or order confirmation page after payment
         } else {
-          alert('M-Pesa payment successful!');
+          alert('M-Pesa payment failed. Please try again.');
         }
       } catch (error) {
         console.error(error);
-        alert('M-Pesa payment successful!');
+        alert('An error occurred during M-Pesa payment. Please try again.');
       }
     }
   };
@@ -77,26 +91,28 @@ const Payment = () => {
           <div className='payment-form'>
             <h2>Payment Information</h2>
             <form onSubmit={handleSubmit}>
-              <label>
-                <input
-                  type="radio"
-                  name="paymentMethod"
-                  value="card"
-                  checked={paymentMethod === 'card'}
-                  onChange={handlePaymentMethodChange}
-                />
-                Card
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="paymentMethod"
-                  value="mpesa"
-                  checked={paymentMethod === 'mpesa'}
-                  onChange={handlePaymentMethodChange}
-                />
-                M-Pesa
-              </label>
+              <div>
+                <label>
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="card"
+                    checked={paymentMethod === 'card'}
+                    onChange={handlePaymentMethodChange}
+                  />
+                  Card
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="mpesa"
+                    checked={paymentMethod === 'mpesa'}
+                    onChange={handlePaymentMethodChange}
+                  />
+                  M-Pesa
+                </label>
+              </div>
               {paymentMethod === 'card' && (
                 <>
                   <label>
@@ -104,7 +120,7 @@ const Payment = () => {
                     <input type="text" name="cardNumber" value={formData.cardNumber} onChange={handleChange} required />
                   </label>
                   <label>
-                    Expiry Date:
+                    Expiry Date (MM/YY):
                     <input type="text" name="expiryDate" value={formData.expiryDate} onChange={handleChange} required />
                   </label>
                   <label>
